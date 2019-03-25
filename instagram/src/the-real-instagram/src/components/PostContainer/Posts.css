@@ -1,3 +1,9 @@
-.PostContainer {
+.PostHeader {
+  display: flex;
+  align-items: center;
   border: solid 1px red;
+}
+
+.PostThumbnail {
+  border-radius: 50%;
 }
