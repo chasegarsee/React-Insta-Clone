@@ -3,10 +3,6 @@
   margin: 5px 5px;
 }
 
-.CommentText:nth-child(odd) {
-  background-color: rgba(94, 94, 94, 0.036);
-}
-
 .user {
   font-weight: bold;
 }
