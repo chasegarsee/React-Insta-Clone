@@ -1,4 +1,5 @@
 .PostHeader {
+  width: 640px;
   display: flex;
   align-items: center;
   border: solid 1px red;
@@ -6,4 +7,6 @@
 
 .PostThumbnail {
   border-radius: 50%;
+  width: 50px;
+  margin: 5px 15px;
 }

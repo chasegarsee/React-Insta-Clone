@@ -1,6 +1,4 @@
 .PostsContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 640px;
   border: solid 1px blue;
 }
