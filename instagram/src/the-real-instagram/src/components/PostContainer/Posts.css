@@ -1,0 +1,20 @@
+.PostHeader {
+  width: 640px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.PostWrapper {
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 50px;
+  border: solid 1px #e0e0e0;
+}
+
+.PostThumbnail {
+  border-radius: 50%;
+  width: 50px;
+  margin: 5px 15px;
+}
