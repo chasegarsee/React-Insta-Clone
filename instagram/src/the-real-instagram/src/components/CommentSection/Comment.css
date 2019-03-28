@@ -29,4 +29,5 @@
   border: none;
   font-weight: 100;
   outline: none;
+  box-shadow: rgba(196, 196, 196, 0.112) 1px 1px 5px;
 }
