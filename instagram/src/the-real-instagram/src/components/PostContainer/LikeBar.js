@@ -1,21 +1,22 @@
 import React from "react";
+import "./Posts.css";
 
 const LikeBar = props => {
   return [
     <div
-      className="like-section"
-      key="likes-icons-container"
+      className="LikeContainer"
+      key="LikesIconsContainer"
       onClick={props.addLike}
     >
-      <div className="like-section-wrapper">
+      <div className="LikeSection">
         <i className="far fa-heart" />
       </div>
-      <div className="like-section-wrapper">
+      <div className="LikeSection">
         <i className="far fa-comment" />
       </div>
     </div>,
-    <div className="like-section" key="likes-container">
-      <div className="like-section-wrapper">{props.likes}</div>
+    <div className="LikeContainer" key="likes-container">
+      <div className="LikeSection">{props.likes}</div>
     </div>
   ];
 };

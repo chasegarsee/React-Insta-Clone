@@ -19,17 +19,13 @@ class Post extends React.Component {
   };
   render() {
     return (
-      <div className="post-border">
+      <div className="PostWrapper">
         <PostHeader
           username={this.props.post.username}
           thumbnailUrl={this.props.post.thumbnailUrl}
         />
-        <div className="post-image-wrapper">
-          <img
-            alt="post thumbnail"
-            className="post-image"
-            src={this.props.post.imageUrl}
-          />
+        <div className="ImageWrapper">
+          <img className="Image" src={this.props.post.imageUrl} />
         </div>
         <LikeBar addLike={this.addLike} likes={this.state.likes} />
         <CommentSection
