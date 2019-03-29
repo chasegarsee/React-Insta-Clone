@@ -30,6 +30,14 @@ const SearchBar = props => {
           <div className="social">
             <i className="far fa-user-circle" />
           </div>
+          <div className="LogOut">
+            <button
+              value="Refresh Page"
+              onClick={localStorage.removeItem("user")}
+            >
+              Log Out
+            </button>
+          </div>
         </div>
       </div>
     </div>

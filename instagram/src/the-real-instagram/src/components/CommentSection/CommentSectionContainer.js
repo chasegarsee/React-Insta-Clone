@@ -11,9 +11,6 @@ class CommentSection extends React.Component {
       comment: ""
     };
   }
-  setComments = () => {
-    localStorage.setItem(this.props.postId.toString(this.state.comments));
-  };
 
   commentHandler = event => {
     this.setState({ comment: event.target.value });

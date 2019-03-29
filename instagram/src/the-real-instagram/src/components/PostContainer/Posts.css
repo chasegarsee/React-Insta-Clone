@@ -11,10 +11,19 @@
   background-color: white;
   margin-bottom: 50px;
   border: solid 1px #e0e0e0;
+  box-shadow: rgba(0, 0, 0, 0.187) 1px 1px 10px;
 }
 
 .PostThumbnail {
   border-radius: 50%;
   width: 50px;
   margin: 5px 15px;
+}
+
+.LikeContainer {
+  display: flex;
+}
+
+.LikeSection {
+  margin: 2px 10px;
 }
